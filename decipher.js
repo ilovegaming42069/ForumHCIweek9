@@ -10,6 +10,6 @@ function digitalDecipher(eMessage, key){
 	return answer;
 }
 
-digitalDecipher([20, 12, 18, 30, 21], 1939);
-digitalDecipher([14, 30, 11, 1, 20, 17, 18, 18], 1990);
-digitalDecipher([6, 4, 1, 3, 9, 20], 100);
+console.log(digitalDecipher([20, 12, 18, 30, 21], 1939));
+console.log(digitalDecipher([14, 30, 11, 1, 20, 17, 18, 18], 1990));
+console.log(digitalDecipher([6, 4, 1, 3, 9, 20], 100));
