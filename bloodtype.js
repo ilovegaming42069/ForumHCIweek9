@@ -36,6 +36,6 @@ function canGiveBlood(x, y){
 	}
 }
 
-canGiveBlood("O+", "A+");
-canGiveBlood("A-", "B-");
-canGiveBlood("A-", "AB+");
+console.log(canGiveBlood("O+", "A+"));
+console.log(canGiveBlood("A-", "B-"));
+console.log(canGiveBlood("A-", "AB+"));
